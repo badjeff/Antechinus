@@ -1,0 +1,13 @@
+// apply plugin: 'maven'
+
+// uploadArchives {
+//     repositories.mavenDeployer {
+//         def deployPath = file(getProperty('AAR_DEPLOY_PATH'))
+//         repository(url: "file://${deployPath.absolutePath}")
+//         pom.project {
+//             groupId 'com.github.badjeff'
+//             artifactId 'Antechinus'
+//             version "1.0.0"
+//         }
+//     }
+// }

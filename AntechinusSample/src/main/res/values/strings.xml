@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Antechinus</string>
+    <string name="defined_text">This is text.</string>
+    <string name="defined_checkbox">This is checkbox</string>
+    <string name="defined_hint">This is hint</string>
+    <string name="button_default">Show dialog</string>
+    <string name="button_defined">Show toast</string>
+
+</resources>

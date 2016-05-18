@@ -1,0 +1,41 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi">
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Action Bar Theme -->
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+    </style>
+
+    <!-- AppTheme ActionBar Style -->
+    <style name="AppTheme.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TextAppearance</item>
+        <item name="android:subtitleTextStyle">@style/AppTheme.ActionBar.TextAppearance.SubTitle</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+
+    <style name="AppTheme.ActionBar.TextAppearance.SubTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+
+    <style name="AppTheme.Widget"/>
+
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
+    </style>
+
+    <style name="AppTheme.Widget.TextView.Style">
+    </style>
+
+    <style name="AppTheme.Widget.TextViewAppearanceStyle" parent="android:Widget.Holo.Light.TextView">
+    </style>
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+    </style>
+
+    <style name="TextAppearance.FontPathView" parent="android:TextAppearance">
+    </style>
+
+</resources>
